@@ -19,7 +19,7 @@ const Login = () => {
                 setUser(user);
             })
             .catch((error) => {
-                alert(error.code)
+                alert(error.code) 
             });
     }
 
